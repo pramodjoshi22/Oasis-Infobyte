@@ -5,12 +5,6 @@ $('form').submit(function (event) {
     convertInputDegree()
 });
 
-// Realtime Update
-$('#inputDegree').on('input', () => convertInputDegree());
-$('#selectInputDegreeType').change(() => convertInputDegree());
-$('#selectConversionType').change(() => convertInputDegree());
-
-
 // Main function which chechks the input and output degree type and then launch the function
 function convertInputDegree() {
 
